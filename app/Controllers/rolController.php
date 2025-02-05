@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\HTTP\RedirectResponse;
 
-class Home extends BaseController
+class RolController extends BaseController
 {
     public function index(): string
     {
@@ -12,4 +12,3 @@ class Home extends BaseController
     }
 
 }
-
